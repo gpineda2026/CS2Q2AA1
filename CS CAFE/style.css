@@ -1,0 +1,55 @@
+/* if you want a bg image just link it through the bottom part, if color nalang use the top code */
+body {
+    margin-top: 90px;
+
+    background-color: rgb(234, 227, 194);
+
+    background-size: cover;
+    background-image: url();
+    background-attachment: fixed;
+}
+
+/* Navbar color */
+.bg-navbar {
+    background-color: rgb(45, 23, 3);
+}
+
+ /* Add fonts sa navbar brand if gusto mo, if hindi delete this code*/
+ .navbar-brand {
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+button {
+    background-color: #97703a;
+    border-radius: 10px;
+}
+
+.card {
+    border: none;
+    background-color: #ffffffee;
+}
+
+a {
+    color: #18272F;
+    position: relative;
+    text-decoration: none;
+}
+
+li a::before {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 4px;
+    background-color: #ffffff;
+    bottom: 4px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.ttl {
+    font-size: 40pt;
+    font-weight: 900;
+}
